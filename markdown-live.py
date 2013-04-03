@@ -2,11 +2,12 @@ import os
 
 import optparse
 
-# Must be installed --
+# Included with project, but full source found here --
 # https://github.com/trentm/python-markdown2
 import markdown2
 
-# Included with project
+# Included with project, full docs found here --
+# https://github.com/defnull/bottle
 from bottle import route, run, template, abort, static_file
 
 # Create markdown processor object
