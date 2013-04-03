@@ -3,6 +3,10 @@ markdown-live
 
 Bottle-based webserver that live-converts markdown content
 
+Run the server
+--------------
+    python markdown-live.py --path /path/to/content
+
 Usage
 -----
 
